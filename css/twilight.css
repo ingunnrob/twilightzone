@@ -1,0 +1,306 @@
+body {
+	background: black url("http://fay.io/e/vosBF/stars.jpg") repeat;
+	overflow: hidden;
+}
+
+.door {
+	position: absolute;
+	top: 200px;
+	left: 300px;
+	right: 0;
+	bottom: 0;
+	background: url(/img/door2.jpg) no-repeat;
+	height: 730px;
+	width: 320px;
+	z-index:1;
+	animation: flyingdoor 3s infinite linear 3s;
+	opacity: 0;
+}
+
+.octodad {
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	right: 0;
+	bottom: 0;
+	background: url(/img/octopus1.gif) no-repeat;
+	filter: grayscale(100%);
+	height: 730px;
+	width: 320px;
+	z-index: 2;
+	opacity: 0;
+	animation: flyingoctopus 5s infinite linear 4s;
+}
+
+.chair {
+	position: absolute;
+	top: 20px;
+	left: 330px;
+	right: 200px;
+	bottom: 0;
+	background: url(/img/chair1.png) no-repeat;
+	filter: grayscale(100%);
+	height: 200px;
+	width: 600px;
+	z-index:4;
+	animation: ;
+}
+
+.twilightlogo{
+	position: absolute;
+	top: 20px;
+	left: 330px;
+	right: 0;
+	bottom: 0;
+	background: url(/img/twilightzonelogowhite.png) no-repeat;
+	filter: grayscale(100%);
+	height: 200px;
+	width: 600px;
+	z-index:3;
+	animation: ;
+}
+
+.vortex {
+	position: relative;
+	top: 200px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 600px;
+	height: 600px;
+	margin: auto;
+	border-radius: 50%;
+	background-color: #eed;
+	opacity: 0.9;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	animation: vortex-spin 2.5s linear infinite;
+	box-shadow: 0 0 200px 0 rgba(255, 255, 255, 0.4);
+}
+
+.circleOne {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	right: 5%;
+	bottom: 5%;
+	width: 550px;
+	height: 550px;
+	border-radius: 50%;
+	background-color: #000;
+}
+
+.circleTwo{
+	top: 5%;
+	left: 5%;
+	right: 5%;
+	bottom: 5%;
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	background-color: #eed;		
+}
+
+.circleThree {
+	top: 5%;
+	left: 5%;
+	right: 5%;
+	bottom: 5%;
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	border-radius: 50%;
+	background-color: #000;	
+}
+
+.circleFour {
+	top: 5%;
+	left: 5%;
+	right: 5%;
+	bottom: 5%;
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	background-color: #eed;	
+}
+
+.circleFive {
+	top: 5%;
+	left: 5%;
+	right: 5%;
+	bottom: 5%;
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	background-color: #000;	
+}
+
+.circleSix {
+	top: 5%;
+	left: 5%;
+	right: 5%;
+	bottom: 5%;
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: #eed;	
+}
+
+.circleSeven {
+	top: 5%;
+	left: 5%;
+	right: 5%;
+	bottom: 5%;
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-color: #000;	
+}
+
+.circleEight {
+	top: 5%;
+	left: 5%;
+	right: 5%;
+	bottom: 5%;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #eed;	
+}
+
+.circleNine {
+	top: 5%;
+	left: 5%;
+	right: 5%;
+	bottom: 5%;
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: #000;	
+}
+
+.circleTen {
+	top: 13%;
+	left: 13%;
+	right: 13%;
+	bottom: 13%;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #eed;	
+}
+
+.circleEleven {
+	top: 14%;
+	left: 14%;
+	right: 14%;
+	bottom: 14%;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #000;	
+}
+
+
+.circleTwelve {
+	top: 15%;
+	left: 15%;
+	right: 15%;
+	bottom: 15%;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #eed;	
+}
+
+/*
+.circleThirteen {
+	top: 20%;
+	left: 20%;
+	right: 20%;
+	bottom: 20%;
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #001;	
+}
+*/
+
+
+
+
+
+@keyframes vortex-spin {
+	
+/*
+	from {
+		top: 0px;
+		left: 600px;
+	}
+	
+	to {
+		bottom: -100px;
+		right: 3000px;
+	}
+*/
+	
+    0% {
+			transform: rotate(0deg) scale(0.95) translate3d(0, 1px, 0);
+    }
+    50% {
+			transform: rotate(180deg) scale(1.05) translate3d(0, -10px, 0);
+    }
+    100% {
+			transform: rotate(360deg) scale(0.95) translate3d(0, 1px, 0);
+    }
+}
+
+@keyframes flyingdoor {
+	
+		0% {
+			opacity: 1;
+			transform: rotate(0deg) scale(0.95) translate3d(8px, 10px, 0);
+			left: 0px;
+    }
+    50% {
+			transform: rotate(180deg) scale(0.55) translate3d(-8px, -10px, 0);
+    }
+    100% {
+			opacity: 0;
+			transform: rotate(360deg) scale(0.35) translate3d(0, 1px, 0);
+			left: 500px;
+    }
+	
+}
+
+@keyframes flyingoctopus {
+	
+		0% {
+			opacity: 1;
+			transform: rotate(0deg) scale(1) translate3d(0, 1px, 0);
+			top: 0px;
+    }
+    50% {
+			transform: rotate(180deg) scale(0.55) translate3d(0, 1px, 0);
+				
+    }
+    100% {
+			opacity: 0;
+			transform: rotate(360deg) scale(0.35) translate3d(0, -10px, 0);
+			left: 600px;
+    }
+	
+}
+
+
